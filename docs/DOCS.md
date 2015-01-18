@@ -6,7 +6,7 @@ Conditionizr has several public methods, _.config()_, _.add()_, _.on()_, _.load(
 With previous versions of Conditionizr, tests were limited and loaded internally. Conditionizr now ships as just a fully-fledged API that you can add unlimited tests onto. Conditionizr adds those tests to it's internal Object and returns it for you to bolt into in the DOM, for ultimate optimisation.
 
 ## conditionizr.config()
-The config method stems from previous Conditionizr versions, but with added flexibility for dependency loading. After adding your own tests, you'll be able to configure what each test executes. Your options are to be specified in an array; _script_, _style_, _class_. Declaring _script_ inside the array will load a script for the specified browser, choosing a _style_ will load a style, and choosing _class_ will add the browser's class to the `<html>` element.
+The config method stems from previous Conditionizr versions, but with added flexibility for dependency loading. After [adding your own tests](#conditionizradd), you'll be able to configure what each test executes. Your options are to be specified in an array; _script_, _style_, _class_. Declaring _script_ inside the array will load a script for the specified browser, choosing a _style_ will load a style, and choosing _class_ will add the browser's class to the `<html>` element.
 
 #### Basic .config() setup
 
